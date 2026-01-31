@@ -8,7 +8,7 @@
 
 ---
 
-## 2. Title of the Experiments
+## 2. List of the Experiments
 
 
 ### 🔹 Experiment 2.1 – Live Character Counter
