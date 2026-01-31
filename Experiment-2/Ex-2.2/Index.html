@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Product Filter</title>
+
+ 
+  <link rel="stylesheet" href="../header.css">
+
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+<header>
+  <nav>
+    <h2>Experiment 2</h2>
+    <ul>
+      <li><a href="../Ex-2.1/index.html">Experiment 2.1</a></li>
+      <li><a href="../Ex-2.2/index.html" class="active">Experiment 2.2</a></li>
+      <li><a href="../Ex-2.3/index.html">Experiment 2.3</a></li>
+    </ul>
+  </nav>
+</header>
+
+
+<h1>Product Filter</h1>
+
+<div class="filter-bar">
+  <label>Filter by:</label>
+  <select onchange="filter(this.value)">
+    <option value="all">All Products</option>
+    <option value="electronics">Electronics</option>
+    <option value="clothing">Clothing</option>
+  </select>
+</div>
+
+<div class="grid">
+
+  <div class="card electronics">
+    <h2>Wireless Headphones</h2>
+    <p class="price">$129.99</p>
+    <span class="tag electronics">electronics</span>
+  </div>
+
+  <div class="card clothing">
+    <h2>Cotton T-Shirt</h2>
+    <p class="price">$24.99</p>
+    <span class="tag clothing">clothing</span>
+  </div>
+
+  <div class="card electronics">
+    <h2>Bluetooth Speaker</h2>
+    <p class="price">$89.99</p>
+    <span class="tag electronics">electronics</span>
+  </div>
+
+  <div class="card clothing">
+    <h2>Denim Jeans</h2>
+    <p class="price">$59.99</p>
+    <span class="tag clothing">clothing</span>
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
